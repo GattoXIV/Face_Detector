@@ -1,2 +1,15 @@
-# Face_Detector
-Face Detector using HOG &amp; Linear SVM in Python. A robust implementation built from scratch, trained on the LFW dataset using scikit-learn. Features include a sliding-window detector, custom data pipeline with hard negative mining, and full visualization tools. Ideal for learning classic Computer Vision fundamentals.
+# 🧑‍💻 HOG-Based Face Detector
+
+## 📝 Descrizione del Progetto
+Sviluppo di un sistema di Computer Vision per il rilevamento dei volti all'interno delle immagini, utilizzando l'estrazione delle feature HOG (Histogram of Oriented Gradients) abbinata a un classificatore Support Vector Machine (SVM).
+
+## 🎯 Obiettivi e Risultati
+* **Estrazione Feature:** Utilizzo di HOG per estrarre le caratteristiche visive dai volti (dataset LFW - Labeled Faces in the Wild).
+* **Classificazione:** Addestramento di un modello LinearSVC.
+* **Sliding Window:** Implementazione di un rilevatore che analizza porzioni di un'immagine di test per identificare ed evidenziare i volti trovati (tramite bounding boxes rosse).
+
+## 🛠️ Tecnologie e Librerie
+* Python
+* Scikit-Image (HOG, view_as_windows)
+* Scikit-Learn (LinearSVC)
+* Matplotlib (Patches)
